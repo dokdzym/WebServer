@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/usr/jojo/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="/usr/jojo/CLionProjects/WebServer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/usr/jojo/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="/usr/jojo/CLionProjects/WebServer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled">
-				<Option output="/usr/jojo/CLionProjects/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/usr/jojo/CLionProjects/untitled/cmake-build-debug"/>
+				<Option output="/usr/jojo/CLionProjects/WebServer/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/jojo/CLionProjects/WebServer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -43,15 +43,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
-					<CompileFile command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled/fast">
-				<Option output="/usr/jojo/CLionProjects/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/usr/jojo/CLionProjects/untitled/cmake-build-debug"/>
+				<Option output="/usr/jojo/CLionProjects/WebServer/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/jojo/CLionProjects/WebServer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -65,69 +65,69 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/usr/jojo/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="/usr/jojo/CLionProjects/WebServer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/jojo/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/epoll.c">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/epoll.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/epoll.h">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/epoll.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/http.c">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/http.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/http.h">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/http.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/http_parse.cpp">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/http_parse.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/http_parse.h">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/http_parse.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/http_request.c">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/http_request.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/http_request.h">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/http_request.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/main.cpp">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/main.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/threadpool.c">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/threadpool.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/threadpool.h">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/threadpool.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/timer.c">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/timer.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/timer.h">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/timer.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/util.c">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/util.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/util.h">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/util.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/usr/jojo/CLionProjects/untitled/CMakeLists.txt">
+		<Unit filename="/usr/jojo/CLionProjects/WebServer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

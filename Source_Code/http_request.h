@@ -5,14 +5,13 @@
 #ifndef HTTP_REQUEST_H
 #define HTTP_REQUEST_H
 
-#include <iostream>//trial
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <time.h>
+//#include <cstdio>
+#include <iostream>
+#include <cmath>
+#include <ctime>
 #include <unistd.h>
-#include <string.h>
-#include <errno.h>
+#include <cstring>
+#include <cerrno>
 #include "util.h"
 #include "list.h"
 
