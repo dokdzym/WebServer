@@ -3,23 +3,24 @@
 
 #include <stdlib.h>
 
-#define TK_PQ_DEFAULT_SIZE 10
+#define JO_PQ_DEFAULT_SIZE 10
 
-typedef int (*tk_pq_comparator_pt)(void *pi, void *pj);
+typedef int (*jo_pq_comparator_pt)(void *pi, void *pj);
 
 typedef struct priority_queue{
     void **pq;
     size_t nalloc;
     size_t size;
-    tk_pq_comparator_pt comp;
-}tk_pq_t;
+    jo_pq_comparator_pt comp;
+}jo_pq_t;
 
-int tk_pq_init(tk_pq_t *tk_pq, tk_pq_comparator_pt comp, size_t size);
-int tk_pq_is_empty(tk_pq_t *tk_pq);
-size_t tk_pq_size(tk_pq_t *tk_pq);
-void *tk_pq_min(tk_pq_t *tk_pq);
-int tk_pq_delmin(tk_pq_t *tk_pq);
-int tk_pq_insert(tk_pq_t *tk_pq, void *item);
-int tk_pq_sink(tk_pq_t *tk_pq, size_t i);
+int jo_pq_init(jo_pq_t *jo_pq, jo_pq_comparator_pt comp, size_t size);
+int jo_pq_is_empty(jo_pq_t *jo_pq);
+size_t jo_pq_size(jo_pq_t *jo_pq);
+void *jo_pq_min(jo_pq_t *jo_pq);
+int jo_pq_delmin(jo_pq_t *jo_pq);
+int jo_pq_insert(jo_pq_t *jo_pq, void *item);
+int jo_pq_sink(jo_pq_t *jo_pq, size_t i);
 
 #endif 
+
